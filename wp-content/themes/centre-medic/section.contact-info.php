@@ -14,7 +14,11 @@
 				<span class="lnr lnr-location"></span>
 				<p>C/ Vilana nº 2, Barcelona</p>
 				<p>c.p: 08017</p>
-				<p class="type-small">Estem just al davant del col·legi de metges</p>
+				<?php if( qtrans_getLanguage() == 'es' ){ ?>
+					<p class="type-small">Estamos justo en frente del Col·legi de Metges</p>
+				<?php }else { ?>
+					<p class="type-small">Estem just al davant del Col·legi de Metges</p>
+				<?php } ?>
 			</div>
 			<div class="section__contact-info--unit">
 				<span class="lnr lnr-phone-handset"></span>
