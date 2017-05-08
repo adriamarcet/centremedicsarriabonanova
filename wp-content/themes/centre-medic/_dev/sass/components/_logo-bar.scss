@@ -1,0 +1,52 @@
+.logo-bar {
+	@include cf;
+	// background-color: $blue-corporate;
+	color: white;
+	padding: $baseline*2 0 $baseline;
+
+	h1, h2 {
+		margin: 0;
+	}
+
+	.hero {
+		font-size: 14vw;
+		line-height: 1.1;
+		color: white;
+		
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+	
+	.sidekick {
+		@include remFont(16);
+		font-weight: 100;
+		display: none;
+	}
+}
+
+@media screen and (min-width: $tablet) {
+
+	.logo-bar {
+
+		.hero {
+			@include remFont(49);
+		}
+
+		.sidekick {
+			display: block;
+		}
+	}
+}
+
+
+@media screen and (min-width: $desktop) {
+
+	.logo-bar {
+		.content {
+			padding-left: 0;
+			
+		}
+	}
+}

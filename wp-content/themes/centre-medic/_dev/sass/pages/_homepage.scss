@@ -1,0 +1,25 @@
+@media screen and (min-width: $tablet) {
+	
+	.home {
+
+		.section__services {
+			margin: $baseline*2;
+			margin-top: -$baseline*2;
+			
+				background-color: white;
+			.content {
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $desktop) {
+	
+	.home {
+
+		.section__services {
+			margin: 0 auto;
+			margin-top: -$baseline*2;
+		}
+	}
+}

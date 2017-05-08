@@ -1,0 +1,29 @@
+.section__contact-form {
+	label {
+		@extend .type-small;
+		text-align: left;
+	}
+
+	.lnr {
+		display: inline-block;
+	}
+
+	select {
+		color: #838383;
+	}
+
+	.section--title {
+		color: $blue-corporate;
+	}
+
+	.pure-button-primary {
+		@extend .uppercase;
+		@include remFont(18);
+		width: 100%;
+	}
+
+	ul {
+		padding-left: $baseline;
+		list-style: square;
+	}	
+}

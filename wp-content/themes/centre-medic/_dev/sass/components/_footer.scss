@@ -1,0 +1,28 @@
+footer {
+	@include remFont(12);
+	background-color: #021521;
+	color: white;
+	padding: $baseline*2 $baseline*2;
+
+	p:last-child {
+		padding: $baseline*2 0;
+	}
+
+	ul {
+		@extend .align-left;
+		@extend .type-mini;
+		
+		li {
+			padding: 0;
+		}
+		
+		.lnr {
+			margin-right: 4px;
+		}
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}

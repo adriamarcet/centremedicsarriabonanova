@@ -1,0 +1,27 @@
+.section__contact-info {
+	background-color: $blue-corporate--light;
+	color: white;
+	font-weight: $font-light;
+
+	h3:first-child {
+		margin-top: 0;
+	}
+
+	.lnr {
+		@include remFont(20);
+		float: left;
+		display: block;
+		margin-left: #{-($baseline)};
+	}
+
+	&--unit {
+		padding-left: $baseline;
+		padding-bottom: $baseline;
+
+		p { 
+			display: block;
+			padding-left: $baseline;
+			margin-top: 0;
+		}
+	}
+}

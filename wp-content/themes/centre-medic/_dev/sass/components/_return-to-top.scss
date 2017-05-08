@@ -1,0 +1,19 @@
+#return-to-top {
+	@include remFont(26);
+
+	position: fixed;
+	bottom: $baseline;
+	right: $baseline;
+	display: none;
+
+	color: white;
+	background-color: rgba(11, 116, 183, 0.59);
+	padding: $baseline/2;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 3px;
+
+	&:hover {
+		background-color: $blue-corporate;
+	}
+}

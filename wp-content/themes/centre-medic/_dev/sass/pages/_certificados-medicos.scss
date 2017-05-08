@@ -1,0 +1,48 @@
+.page-template-template-certificados-medicos {
+
+	.lista-certificados {
+
+		
+		h3 {
+			color: $blue-corporate;
+		}
+
+		a {
+			text-decoration: none;
+			color: $blue-corporate;
+		}
+
+		ul {
+			list-style: square;
+			padding-left: $baseline;
+		}
+
+		.group__col--1-2 {
+			padding-right: 40px;
+		}
+	}
+
+	.group__col--1-2 a {
+
+		margin-top: $baseline;
+		text-align: left;
+		margin: $baseline auto;
+		text-decoration: none;
+
+
+		&:after {
+		transition: transform .10s cubic-bezier(0.43, 4.01, 0.58, 1);
+
+			content:" >";
+			display: inline-block;
+			margin-left: 2px;
+		}
+
+		&:hover {
+
+			&:after {
+				transform: translateX(2px);
+			}
+		}
+	}
+}

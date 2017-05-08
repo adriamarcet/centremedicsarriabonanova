@@ -1,0 +1,17 @@
+.language-switcher-menu {
+	border: 0;
+	display: inline-block;
+	margin: 0;
+
+	li {
+		padding: 0;
+		display: inline-block;
+	}
+
+	a {
+		@include remFont(12);
+		padding: 0;
+		text-decoration: none;
+		color: white;
+	}
+}

@@ -1,0 +1,26 @@
+// All inputs to be full width
+input, textarea, select {
+	width: 100%;
+}
+
+select {
+	border-radius: 0;
+}
+
+// Making iframes responsive
+iframe {
+	max-width: 100%;
+}
+// No styles for lists 
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li {
+	vertical-align: middle;
+
+	* {
+		vertical-align: middle;
+	}
+}

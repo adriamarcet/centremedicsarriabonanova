@@ -1,0 +1,47 @@
+<fieldset>
+	<div class="group pure-form">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredName" class="uppercase align-left">Nombre*</label>
+			    [text* enteredName placeholder "Escribe tu nombre"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredPhone" class="uppercase">Teléfono*</label>
+			    [tel enteredPhone placeholder "Teléfono de contacto"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredEmail" class="uppercase">Email</label>
+			    [email enteredEmail placeholder "Escribe tu email"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+
+			<div class="pure-control-group">
+			    <label for="enteredTopic" class="uppercase">Motivo</label>
+			    [select enteredTopic include_blank "Certificado carné de conducir" "Certificado permiso armas" "Certificado animales peligrosos" "Certificado embarcaciones de recreo" "Certificado grúa o torre móvil" "Certificado seguridad privada" "Peritaje médico para accidentes" "Asistencia médica familiar" "Otros"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="pure-control-group">
+			<label for="enteredComment" class="uppercase">Comentario</label>
+			[textarea enteredComment placeholder "Escribe aquí tu comentario"]
+		</div>
+	</div>
+	<div class="group">
+		<div class="group__col--1-2 align-right">
+			[recaptcha]
+		</div>
+		<div class="group__col--1-2">
+			[submit id:submit class:pure-button class:pure-button-primary "Enviar"]
+		</div>
+	</div>	
+    <div class="pure-controls">
+    </div>
+</fieldset>

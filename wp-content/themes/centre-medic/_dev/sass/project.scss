@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+// Importing styles from base folder
+@import "base/mixins";
+@import "base/variables";
+@import "base/normalize";
+@import "base/sanitize";
+@import "base/mybase";
+
+@import "utilities/helpers";
+@import "utilities/fonts";
+@import "utilities/typography";
+
+
+// Importing styles from vendor folder
+// @import "vendor/vendorstyle";
+@import "vendor/purecss";
+@import "vendor/wtfforms";
+@import "vendor/formbase/main";
+@import "vendor/linearicons";
+@import "vendor/hamburgers/hamburgers";
+
+// Importing styles from the components folder
+@import "components/header";
+@import "components/logo-bar";
+@import "components/top-bar";
+@import "components/breadcrumb";
+@import "components/main-menu";
+@import "components/language-switcher-menu";
+@import "components/group";
+@import "components/return-to-top";
+@import "components/footer";
+
+@import "sections/section";
+@import "sections/section__services";
+@import "sections/section__featured-services";
+@import "sections/section__hero-banner";
+@import "sections/section__contact-info";
+@import "sections/section__contact-form";
+
+@import "pages/homepage";
+@import "pages/certificados-medicos";
+
+@import "z-index.scss";
+@import "end.scss";

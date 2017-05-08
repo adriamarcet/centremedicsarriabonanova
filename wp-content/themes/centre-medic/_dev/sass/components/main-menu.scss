@@ -1,0 +1,60 @@
+.menu-item {
+	@extend .pure-menu-link;
+
+	a {
+		display: block;
+		border-bottom: 0;
+	}
+}
+
+.main-menu {
+	@extend .logo-bar;
+	padding: 0;
+	display: none;
+	position: absolute;
+	width: 100%;
+	background-color: $blue-corporate;
+
+	& a,
+	.pure-menu-link {
+		@include remFont(14);
+		@extend .uppercase;
+	  	color: $color-link--inverted;
+	  	border-bottom: 1px solid rgba(255,255,255,.3);
+	  	text-decoration: none;
+	}
+
+	& a {
+		border-bottom: 0;
+	}
+
+	.current-menu-item,
+	.current-item {
+	  	background-color: rgba(0,0,0,.4);		
+	}
+
+	.pure-menu-link,
+	.pure-menu-list,
+	.pure-menu-item {
+		display: block;
+	}
+}
+@media screen and (min-width: $tablet) {
+
+	.main-menu {
+	
+		display: block;
+		position: relative;
+
+		.menu-item a,
+		.pure-menu-link {
+			border-bottom: 0;
+		}
+
+		.pure-menu-link,
+		.pure-menu-list,
+		.pure-menu-item {
+			display: inline-block;
+		}
+	}
+}

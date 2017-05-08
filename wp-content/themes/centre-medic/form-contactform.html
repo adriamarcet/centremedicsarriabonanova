@@ -1,0 +1,41 @@
+<fieldset>
+	<div class="group pure-form">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="name" class="uppercase align-left">Nombre*</label>
+			    [text* name placeholder "Escribe tu nombre"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="phone" class="uppercase">Teléfono*</label>
+			    [tel phone placeholder "Teléfono de contacto"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="email" class="uppercase">Email</label>
+			    [email email placeholder "Escribe tu email"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+
+			<div class="pure-control-group">
+			    <label for="topic" class="uppercase">Motivo</label>
+			    [select topic include_blank "Certificado carné de conducir" "Certificado permiso armas" "Certificado animales peligrosos" "Certificado embarcaciones de recreo" "Certificado grúa o torre móvil" "Certificado seguridad privada" "Peritaje médico para accidentes" "Asistencia médica familiar" "Otros"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="pure-control-group">
+			<label for="comment" class="uppercase">Comentario</label>
+			[textarea comment]
+		</div>
+	</div>
+
+    <div class="pure-controls">
+        [submit id:submit class:pure-button class:pure-button-primary "Enviar"]
+    </div>
+</fieldset>

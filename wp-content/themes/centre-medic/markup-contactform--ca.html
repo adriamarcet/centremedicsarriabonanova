@@ -1,0 +1,47 @@
+<fieldset>
+	<div class="group pure-form">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredName" class="uppercase align-left">Nom*</label>
+			    [text* enteredName placeholder "Escriu el teu nom"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredPhone" class="uppercase">Telèfon*</label>
+			    [tel enteredPhone placeholder "Telèfon de contacte"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="group__col--1-2">
+			<div class="pure-control-group">
+			    <label for="enteredEmail" class="uppercase">Email</label>
+			    [email enteredEmail placeholder "Adreça electrònica"]
+			</div>
+		</div>
+		<div class="group__col--1-2">
+
+			<div class="pure-control-group">
+			    <label for="enteredTopic" class="uppercase">Motiu</label>
+			    [select enteredTopic include_blank "Certificat carnet de conduir" "Certificat permís d'armes" "Certificat animals perillosos" "Certificat embarcacions d'esbarjo" "Certificat grua o torre mòbil" "Certificat seguretat privada" "Peritage mèdica per accidents" "Asistència mèdica familiar" "Altres"]
+			</div>
+		</div>
+	</div>
+	<div class="group">
+		<div class="pure-control-group">
+			<label for="enteredComment" class="uppercase">Comentari</label>
+			[textarea enteredComment]
+		</div>
+	</div>
+	<div class="group">
+		<div class="group__col--1-2 align-right">
+&nbsp;
+		</div>
+		<div class="group__col--1-2">
+			[submit id:submit class:pure-button class:pure-button-primary "Enviar"]
+		</div>
+	</div>	
+    <div class="pure-controls">
+    </div>
+</fieldset>

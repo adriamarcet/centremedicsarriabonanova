@@ -1,0 +1,16 @@
+.section {
+	padding-top: $baseline*3;
+	padding-bottom: $baseline*2;
+
+	&--title {
+
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.section {
+		padding-top: $baseline*4;
+		padding-bottom: $baseline*4;
+	}
+}
